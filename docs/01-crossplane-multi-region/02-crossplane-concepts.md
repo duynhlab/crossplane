@@ -160,7 +160,7 @@ Crossplane sở hữu hạ tầng, **không** sở hữu tiến trình release. 
 | Flux | Cluster đã reconcile về desired state chưa? |
 | Promotion engine | Version này được phép đi tới target tiếp theo không? |
 
-Lớp Flux và promotion engine nằm ở [file 03](03-luong-gitops.md) và [file 05](05-promotion-va-onboarding.md).
+Lớp Flux và promotion engine nằm ở [file 03](03-luong-gitops.md) và [file 05](05-promotion-va-onboarding.md). Cách khác để đưa hạ tầng vào GitOps mà không dùng Crossplane, bằng Terraform module qua Tofu Controller, nằm ở [series 2, file 03](../02-eks-saas-gitops/03-tofu-controller.md); so sánh hai cách ở [decision guide](../03-tool-decision-guide.md).
 
 ## Những gì v2 đã gỡ bỏ
 

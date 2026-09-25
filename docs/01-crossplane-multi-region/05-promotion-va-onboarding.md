@@ -112,6 +112,10 @@ Git là source of truth. Promotion engine ra quyết định. Flux áp dụng de
 
 Một platform multi-region EKS không chỉ là tập hợp cluster. Nó là một control plane.
 
+## So với workshop AWS
+
+Workshop EKS SaaS GitOps giải cùng bài toán onboarding và promotion bằng Argo Events + Argo Workflows và wave theo tier thay vì orchestration app và promotion engine tự viết. So sánh ở [series 2, file 04](../02-eks-saas-gitops/04-argo-events-workflows.md) và [file 05](../02-eks-saas-gitops/05-flux-automation-va-rollout.md), tổng hợp ở [decision guide](../03-tool-decision-guide.md).
+
 ## Nguồn
 
 - [Building a Multi-Region EKS Platform with Crossplane, FluxCD, and GitOps](https://medium.com/@kostasdihalas/building-a-multi-region-eks-platform-with-crossplane-fluxcd-and-gitops-c0b3ea4dd567) – mục "Why an orchestration app?", "Why GitHub Deployments?", "The most important design rule", "Final thoughts".
